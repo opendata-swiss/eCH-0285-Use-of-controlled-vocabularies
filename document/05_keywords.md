@@ -6,6 +6,9 @@
 
 ## Decisions (and Reasoning)
 
+## DCAT-AP-CH
+* Anpassen der Range für dcat:keyword
+
 ## Discussion
 
 
