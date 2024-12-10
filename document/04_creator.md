@@ -14,7 +14,7 @@
 
 ## Discussion
 
-  (Michael / Michèle)
+  Michael / Michèle
   
   * Context:  Creator / Publisher Organisation | Qualified Attribution (DataCustodian / DataSteward / DataOwner/ ...)
 
@@ -32,7 +32,12 @@
       * provide URIs and Labels as LD?
     * Department / Office https://ld.admin.ch/department/V / https://ld.admin.ch/office/V.1.6
     * Kanton -> Ämter (Empfehlung) -> CV nicht existent (Aufbauen?) -> I14Y Ämter / UID
+      * https://www.dcat-ap.de/def/contributors/ 
     * Fallback / Wikidata: https://www.wikidata.org/wiki/Q1326584
       
 * Not to be used:
     * Opendata.swiss Organization / https://www.dcat-ap.ch/vocabulary/publishers/20210623.html
+
+* To be clarified: How is it handled with https://www.dcat-ap.de/def/contributors/
+
+* Einfacher durch eigenes Voka mit Links zu anderen Listen ?
