@@ -11,7 +11,7 @@
 ## Discussion
 
 * Theme / Category (High-Level, Low-Count up to 20 entries, Up-Stream)
-  * Tania / Michèle / Fabian?
+  * Tania / Michèle / Fabian
 
 
 Proposal: Define a usage note/recommendation, similar to the following, in the standard and in this guideline: In addition to the proposed common controlled vocabulary, which are mandatory to ensure minimal interoperability, implementers are encouraged to publish and to use further region or domain-specific vocabularies that are available online. While those may not be recognised by general implementations of the Application Profile, they may serve to increase interoperability across applications in the same region or domain. see: https://semiceu.github.io/DCAT-AP/releases/3.0.0/#other-controlled-vocabularies
