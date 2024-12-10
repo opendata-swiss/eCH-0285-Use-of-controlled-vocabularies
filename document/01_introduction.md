@@ -4,13 +4,15 @@ This chapter contains the introduction to this document and the working group.
 
 ## Working Group
 
-* Humar-Mägli Tania, Swisstopo, geocatch (u.a. Contact Person for / Mapping to OGD / I14Y)
-* Fasmeyer Florian E., BFS, KOM/PUB, PUB, Diffusion des données, Output Data
-* Oderbolz Stefan, EBP, Data Engineer, Representative Users
-* Spichtig Michèle, BFS, Geschäftsstelle OGD, Data Specialist
-* Luggen Michael, BK, Data Architect
-* Di Donate Pasquale, Swisstopo, Projektkoordinator, Linked Data - geocat.ch
-* Santi Fabian, BFS, I14Y Interoperability platform representative
+| Name                           | Organization | Function                                              |
+|--------------------------------|--------------|-------------------------------------------------------|
+| Humar-Mägli Tania              | Swisstopo    | geocatch (Contact Person for / Mapping to OGD / I14Y) |
+| Fasmeyer Florian E.            | BFS          | KOM/PUB, PUB, Diffusion des données, Output Data      |
+| Oderbolz Stefan                | EBP          | Data Engineer, Representative Users                   |
+| Spichtig Michèle               | BFS          | Geschäftsstelle OGD, Data Specialist                  |
+| Luggen Michael                 | BK           | Data Architect                                        |
+| Di Donate Pasquale             | Swisstopo    | Projektkoordinator, Linked Data - geocat.ch           |
+| Santi Fabian                   | BFS          | I14Y Interoperability platform representative         |
 
 ## Motivation
 
