@@ -29,7 +29,7 @@
 
   * DCAT-AP CH:
     * UID - FOAF concept: ld.admin.ch/org/CHE-370.148.023
-    * provide URIs and Labels as LD?
+      * provide URIs and Labels as LD?
     * Department / Office https://ld.admin.ch/department/V / https://ld.admin.ch/office/V.1.6
     * Kanton -> Ämter (Empfehlung) -> CV nicht existent (Aufbauen?) -> I14Y Ämter / UID
     * Fallback / Wikidata: https://www.wikidata.org/wiki/Q1326584
