@@ -1,7 +1,12 @@
 # Creator / Publisher etc.
 
 ## Context
-Creator / Publisher Organisation | Qualified Attribution (DataCustodian / DataSteward / DataOwner/ ...)
+| **Predicate**                                                                 | **Domain**         | **Range**           | **Description**                                              |
+|------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|
+| [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`    | `foaf:Agent`        | The entity (person, organization, or service) responsible for creating the resource (like a dataset). |
+| [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`    | `foaf:Agent`        | The organization or entity that publishes the dataset, making it available for access or download. |
+| [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`    | `prov:Attribution`  | A detailed attribution statement about an agent's role in the creation, curation, or management of the dataset, supporting roles like custodian, owner, steward, etc. |
+
 
 ## Usage Note
 
@@ -11,6 +16,8 @@ Creator / Publisher Organisation | Qualified Attribution (DataCustodian / DataSt
 
   (Michael / Michèle)
   
+  * Context:  Creator / Publisher Organisation | Qualified Attribution (DataCustodian / DataSteward / DataOwner/ ...)
+
   * Problematik: Currently no standardised publisher name
 
   * UID Organisations
