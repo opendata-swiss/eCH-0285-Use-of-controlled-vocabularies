@@ -29,6 +29,9 @@
 
   * DCAT-AP CH:
     * UID - FOAF concept: ld.admin.ch/org/CHE-370.148.023
+      * Universitäten / Forschungsinstitute ?
+      * Gemeinden ?
+      * Vereine, nicht eingetragen OpenGLAM?
       * provide URIs and Labels as LD?
     * Department / Office https://ld.admin.ch/department/V / https://ld.admin.ch/office/V.1.6
     * Kanton -> Ämter (Empfehlung) -> CV nicht existent (Aufbauen?) -> I14Y Ämter / UID
