@@ -1,5 +1,7 @@
 # Themes (aka Categories)
 
+Per Categories: If less then 100 Einträge pro CV, and wants to be complete in sense of topics.
+
 ## Context
 
 ## Usage Note
@@ -29,7 +31,6 @@ DCAT EU-vokabular kleinster gemeinsamer Nenner (übergeordnetes Katalog) aber je
   * Unterthemen: Guideline was es noch für andere Themen gibt => ist das überhaupt sinnvoll?
   * Plattformen: Ideal wäre mehrer Themen anzugeben. 
   * Mapping: 
-
-* Jedem der EU-Vokabularen ein spezifische Vokabular hinzufügt. z.B. Umwelt mit ein Unterthema nicht ein gute Idee: Entscheiden hierarchisch, Filtern
-* DCAT-Katalog erlaubt mehrere Themen
-* Geo immer Mappen auf DCAT EU-Themes, wichtig für Dateneigentümern, das ihre Themenkategorie GeoIV auf opendata.swiss aufgelistet ist. 
+   * Jedem der EU-Vokabularen ein spezifische Vokabular hinzufügt. z.B. Umwelt mit ein Unterthema nicht ein gute Idee: Entscheiden hierarchisch, Filtern
+   * DCAT-Katalog erlaubt mehrere Themen
+   * Geo immer Mappen auf DCAT EU-Themes, wichtig für Dateneigentümern, das ihre Themenkategorie GeoIV auf opendata.swiss aufgelistet ist. 
