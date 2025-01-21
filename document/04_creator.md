@@ -1,4 +1,4 @@
-# Creator / Publisher etc.
+# Creator / Publisher etc. (misp/lmi)
 
 ## Usage Note (will only be in the Standard)
 * Form
