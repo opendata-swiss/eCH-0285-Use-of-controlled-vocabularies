@@ -1,4 +1,4 @@
-# eCH-0285 Use of controlled vocabularies
+# eCH-0285 Use of controlled vocabularies (lmi)
 
 This chapter contains the introduction to this document and the working group.
 
