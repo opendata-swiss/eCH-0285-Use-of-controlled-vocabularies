@@ -1,4 +1,4 @@
-# Themes (aka Categories)
+# Themes (aka Categories) (misp / tanja)
 
 Per Categories: If less then 100 Einträge pro CV, and wants to be complete in sense of topics.
 
