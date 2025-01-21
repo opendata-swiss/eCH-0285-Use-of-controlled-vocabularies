@@ -1,6 +1,20 @@
 # Creator / Publisher etc.
 
+## Usage Note (will only be in the Standard)
+* Form
+  * In general as bulletpoints. (rougly up to 2-3).
+  * Check first with the already available usage note.
+* Content:
+  * Recomendation regarding a controlled vocabulary to use.
+    * Do we have a cascade of recomendations?
+    * Decision tree if applicable. (If geodata, if on federal level, if ...)
+  * The links (as references) to the controlled vocabularies.
+  * A general example for the property. (More detailed examples go to the eCH-0285).
+  * Link to the eCH-0285 aid.
+
 ## Context
+
+### Domain / Range / Short description
 | **Predicate**                                                                 | **Domain**         | **Range**           | **Description**                                              |
 |------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|
 | [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`    | `foaf:Agent`        | The entity (person, organization, or service) responsible for creating the resource (like a dataset). |
@@ -8,7 +22,10 @@
 | [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`    | `prov:Attribution`  | A detailed attribution statement about an agent's role in the creation, curation, or management of the dataset, supporting roles like custodian, owner, steward, etc. |
 
 
-## Usage Note
+### Examples
+* Concrete examples with the use of the full URIs.
+* Examples in Turtle.
+* Per case at least one example.
 
 ## Decisions (and Reasoning)
 
