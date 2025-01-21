@@ -28,8 +28,14 @@
 * Per case at least one example.
 
 ## Decisions (and Reasoning)
+* If there are other possibilities to solve the same problem. State which one, and why we decided against it.
 
-## Discussion
+## Change log (vs. Version 2)
+* What change, and which advantage it brings.
+
+
+
+## Discussion (will be removed after integrated to the above chapters)
 
   Michael / Michèle
   
