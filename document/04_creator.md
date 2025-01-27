@@ -20,7 +20,6 @@
 |------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|
 | [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`   | `foaf:Agent`        | Resources of type foaf:Agent are recommended as values for this property. See also DCAT 3 - 6.12 Class: Organization/Person. 
 | [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`   | `foaf:Agent`        | This property refers to an entity (organisation) responsible for making the Dataset available. | 
-|
 | [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`   | `prov:Attribution`  |This property refers to a link to an Agent having some form of responsibility for the dataset | 
 
 #WIKIDATA oder sie müssen einfach den Type angeben, wie bei dcat.ap.de siehe https://www.dcat-ap.de/def/dcatde/3.0/spec/#datensatz-herausgeber
