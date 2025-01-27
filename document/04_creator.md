@@ -15,16 +15,35 @@
 ## Context
 
 ### Domain / Range / Short description
-| **Predicate**                                                                 | **Domain**         | **Range**           | **Description**                                              |
-|------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|
-| [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`    | `foaf:Agent`        | The entity (person, organization, or service) responsible for creating the resource (like a dataset). |
-| [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`    | `foaf:Agent`        | The organization or entity that publishes the dataset, making it available for access or download. |
-| [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`    | `prov:Attribution`  | A detailed attribution statement about an agent's role in the creation, curation, or management of the dataset, supporting roles like custodian, owner, steward, etc. |
 
 | **Predicate**                                                                 | **Domain**         | **Range**           | **Description**                                              | **Usage note**                                             |
 |------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|------------------------------------------------------------|
 | [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`   | `foaf:Agent`        | An entity responsible for producing the dataset. | Resources of type foaf:Agent are recommended as values for this property. See also 	DCAT 3 - 6.12 Class: Organization/Person | 
-| [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`   | `foaf:Agent`        | This property refers to an entity (organisation) responsible for making the Dataset available. | The organisation MUST be the one that has published the dataset (in the legal sense, not the technical sense), i.e. that has decided to grant rights of use to third parties. It is favorable to use a more specific publisher, i.e. "Office of Cyberadministration of Lucern" over "Canton of Lucern".
+| [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`   | `foaf:Agent`        | This property refers to an entity (organisation) responsible for making the Dataset available. | 
+ |
+| [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`   | `prov:Attribution`  | This property refers to a link to an Agent having some form of responsibility for the dataset | Used to link to an Agent where the nature of the relationship is known but does not match one of the standard [ DCTERMS ] properties ( dcterms:creator , dcterms:publisher ). Use dcat:hadRole on the prov:Attribution to capture the responsibility of the Agent with respect to the Resource. See DCAT 3 - 15.1 Relationships between datasets and agents for usage examples.
+
+#WIKIDATA oder sie müssen einfach den Type angeben, wie bei dcat.ap.de siehe https://www.dcat-ap.de/def/dcatde/3.0/spec/#datensatz-herausgeber
+
+
+### Usage Notes
+
+#### dcat:creator
+An entity responsible for producing the dataset (provider of the technical components), organisation or company. | Resources of type foaf:Agent are recommended as values for this property. See also 	DCAT 3 - 6.12 Class: Organization/Person. 
+Controlled Vocabularies to be used:
+* If from the public sector, use the same CV as dcat:publisher
+* For swiss companies, use the corresponding Zefix entry [https://register.ld.admin.ch/zefix/company/122015](https://register.ld.admin.ch/zefix/company/122015), you can find the EHRA-ID of organisations on http://zefix.ch
+* Fallback: We recommend using the correspondend entry in Wikidata as CV, it is straight forward to add a missing entity to Wikidata.
+
+Example
+```
+<https://ld.admin.ch/office/III.1.4> a <http://xmlns.com/foaf/0.1/Organization>, <http://xmlns.com/foaf/0.1/Agent> ;
+	<http://xmlns.com/foaf/0.1/name> "Staatssekretariat für Migration"@de, "Segreteria di Stato della migrazione"@it, "Secrétariat d’Etat aux migrations"@fr, "Secretariat da stadi per migraziun"@rm .
+```
+
+#### dcat:publisher
+
+The organisation MUST be the one that has published the dataset (in the legal sense, not the technical sense), i.e. that has decided to grant rights of use to third parties. It is favorable to use a more specific publisher, i.e. "Office of Cyberadministration of Lucern" over "Canton of Lucern".
 
 Controlled Vocabularies to be used:
 * CH Federal Level:
@@ -34,13 +53,10 @@ Controlled Vocabularies to be used:
   * Usage of the published foaf:Agent by the local agency if available.
   * Fallback: We recommend using the correspondend entry in Wikidata as CV, it is straight forward to add a missing entity to Wikidata.
  
- Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity**/Q1326584 not http://www.wikidata.org//wiki/Q1326584
- |
-| [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`   | `prov:Attribution`  | This property refers to a link to an Agent having some form of responsibility for the dataset | Used to link to an Agent where the nature of the relationship is known but does not match one of the standard [ DCTERMS ] properties ( dcterms:creator , dcterms:publisher ). Use dcat:hadRole on the prov:Attribution to capture the responsibility of the Agent with respect to the Resource. See DCAT 3 - 15.1 Relationships between datasets and agents for usage examples.
-
-#WIKIDATA oder sie müssen einfach den Type angeben, wie bei dcat.ap.de siehe https://www.dcat-ap.de/def/dcatde/3.0/spec/#datensatz-herausgeber
+Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity**/Q1326584 not http://www.wikidata.org//wiki/Q1326584
 
 
+ 
 ### Examples
 * Concrete examples with the use of the full URIs.
 * Examples in Turtle.
