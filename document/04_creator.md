@@ -21,6 +21,14 @@
 | [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`    | `foaf:Agent`        | The organization or entity that publishes the dataset, making it available for access or download. |
 | [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`    | `prov:Attribution`  | A detailed attribution statement about an agent's role in the creation, curation, or management of the dataset, supporting roles like custodian, owner, steward, etc. |
 
+| **Predicate**                                                                 | **Domain**         | **Range**           | **Description**                                              | **Usage note**                                             |
+|------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|------------------------------------------------------------|
+| [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`   | `foaf:Agent`        | An entity responsible for producing the dataset. | Resources of type foaf:Agent are recommended as values for this property. See also 	DCAT 3 - 6.12 Class: Organization/Person | 
+| [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`   | `foaf:Agent`        | This property refers to an entity (organisation) responsible for making the Dataset available. | XX |
+| [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`   | `prov:Attribution`  | This property refers to a link to an Agent having some form of responsibility for the dataset | Used to link to an Agent where the nature of the relationship is known but does not match one of the standard [ DCTERMS ] properties ( dcterms:creator , dcterms:publisher ). Use dcat:hadRole on the prov:Attribution to capture the responsibility of the Agent with respect to the Resource. See DCAT 3 - 15.1 Relationships between datasets and agents for usage examples.
+
+
+
 
 ### Examples
 * Concrete examples with the use of the full URIs.
