@@ -24,7 +24,18 @@
 | **Predicate**                                                                 | **Domain**         | **Range**           | **Description**                                              | **Usage note**                                             |
 |------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|------------------------------------------------------------|
 | [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`   | `foaf:Agent`        | An entity responsible for producing the dataset. | Resources of type foaf:Agent are recommended as values for this property. See also 	DCAT 3 - 6.12 Class: Organization/Person | 
-| [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`   | `foaf:Agent`        | This property refers to an entity (organisation) responsible for making the Dataset available. | The organisation MUST be the one that has published the dataset (in the legal sense, not the technical sense), i.e. that has decided to grant rights of use to third parties. CV to be used: LINDAS Vocabulary for departments  <a href="https://ld.admin.ch/department/V">https://ld.admin.ch/department/V</a> (I-V) and for offices <a href="https://ld.admin.ch/office/V.1.6</a>./li> Fallback: We recommend using the correspondend entry in Wikidata as CV: for example Entry of the <a href="https://www.wikidata.org/wiki/Q1326584">Federal Electricity Commission</a>. |
+| [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`   | `foaf:Agent`        | This property refers to an entity (organisation) responsible for making the Dataset available. | The organisation MUST be the one that has published the dataset (in the legal sense, not the technical sense), i.e. that has decided to grant rights of use to third parties. It is favorable to use a more specific publisher, i.e. "Office of Cyberadministration of Lucern" over "Canton of Lucern".
+
+Controlled Vocabularies to be used:
+* CH Federal Level:
+  * Vocabulary for departments based on [RVOV](https://www.fedlex.admin.ch/eli/cc/1999/170/de)  <a href="https://ld.admin.ch/department/V">https://ld.admin.ch/department/V</a> (I-V) and for offices <a href="https://ld.admin.ch/office/V.1.6</a>./li>
+  * Fallback: We recommend using the correspondend entry in Wikidata as CV: for example Entry of the <a href="[https://www.wikidata.org/entity/Q1326584](http://www.wikidata.org/entity/Q1326584)">Federal Electricity Commission</a>.
+* Cantonal or Municipal Level:
+  * Usage of the published foaf:Agent by the local agency if available.
+  * Fallback: We recommend using the correspondend entry in Wikidata as CV, it is straight forward to add a missing entity to Wikidata.
+ 
+ Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity**/Q1326584 not http://www.wikidata.org//wiki/Q1326584
+ |
 | [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`   | `prov:Attribution`  | This property refers to a link to an Agent having some form of responsibility for the dataset | Used to link to an Agent where the nature of the relationship is known but does not match one of the standard [ DCTERMS ] properties ( dcterms:creator , dcterms:publisher ). Use dcat:hadRole on the prov:Attribution to capture the responsibility of the Agent with respect to the Resource. See DCAT 3 - 15.1 Relationships between datasets and agents for usage examples.
 
 #WIKIDATA oder sie müssen einfach den Type angeben, wie bei dcat.ap.de siehe https://www.dcat-ap.de/def/dcatde/3.0/spec/#datensatz-herausgeber
