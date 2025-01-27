@@ -18,10 +18,10 @@
 
 | **Predicate**                                                                 | **Domain**         | **Range**           | **Description**                                              | **Usage note**                                             |
 |------------------------------------------------------------------------------|-------------------|---------------------|-------------------------------------------------------------|------------------------------------------------------------|
-| [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`   | `foaf:Agent`        | An entity responsible for producing the dataset. | Resources of type foaf:Agent are recommended as values for this property. See also 	DCAT 3 - 6.12 Class: Organization/Person | 
+| [dcat:creator](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator) | `dcat:Resource`   | `foaf:Agent`        | | 
 | [dcat:publisher](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher) | `dcat:Resource`   | `foaf:Agent`        | This property refers to an entity (organisation) responsible for making the Dataset available. | 
- |
-| [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`   | `prov:Attribution`  | This property refers to a link to an Agent having some form of responsibility for the dataset | Used to link to an Agent where the nature of the relationship is known but does not match one of the standard [ DCTERMS ] properties ( dcterms:creator , dcterms:publisher ). Use dcat:hadRole on the prov:Attribution to capture the responsibility of the Agent with respect to the Resource. See DCAT 3 - 15.1 Relationships between datasets and agents for usage examples.
+|
+| [prov:qualifiedAttribution](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualifiedAttribution) | `dcat:Resource`   | `prov:Attribution`  |This property refers to a link to an Agent having some form of responsibility for the dataset | 
 
 #WIKIDATA oder sie müssen einfach den Type angeben, wie bei dcat.ap.de siehe https://www.dcat-ap.de/def/dcatde/3.0/spec/#datensatz-herausgeber
 
@@ -55,6 +55,10 @@ Controlled Vocabularies to be used:
  
 Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity**/Q1326584 not http://www.wikidata.org//wiki/Q1326584
 
+#### dcat:qualifiedAttribution
+Used to link to an Agent where the nature of the relationship is known but does not match one of the standard [ DCTERMS ] properties ( dcterms:creator , dcterms:publisher ). Use dcat:hadRole on the prov:Attribution to capture the responsibility of the Agent with respect to the Resource. See DCAT 3 - 15.1 Relationships between datasets and agents for usage examples.
+
+On the federal level ther is currently ongoing work to define the roles in the context of data publication (Data Steward, Data Owner, Data Custodian etc.). Once this work is finished, we will provide a Controlled Vocabulary to be used. Meanwhile it is recommend, to not use this property to avoid confusion in the future.
 
  
 ### Examples
@@ -63,7 +67,10 @@ Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity*
 * Per case at least one example.
 
 ## Decisions (and Reasoning)
-* If there are other possibilities to solve the same problem. State which one, and why we decided against it.
+
+* Problematik: Currently no standardised publisher name
+* It is better to use a non-stable external CV (like Wikidata) then work with singleshot definitions.
+
 
 ## Change log (vs. Version 2)
 * What change, and which advantage it brings.
@@ -74,12 +81,6 @@ Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity*
 
   Michael / Michèle
   
-  * Context:  Creator / Publisher Organisation | Qualified Attribution (DataCustodian / DataSteward / DataOwner/ ...)
-
-  * Problematik: Currently no standardised publisher name
-
-  * UID Organisations
-  * Zefix Organisations
   
   * DCAT-AP CV to be used: 
     https://semiceu.github.io/DCAT-AP/releases/3.0.0/#controlled-vocabularies-to-be-used 
