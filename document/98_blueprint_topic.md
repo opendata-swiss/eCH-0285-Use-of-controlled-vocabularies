@@ -1,4 +1,4 @@
-# Conforms To (odi)
+# Topic Name
 
 ## Context
 * Short description of the Context
@@ -28,6 +28,3 @@
 
 ## Change log (vs. Version dcat-ch V2)
 * What change, and which advantage it brings.
-
-## Discussion (will be removed)
-* data schema (also interaction with qualifiedRelation)
