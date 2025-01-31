@@ -50,9 +50,11 @@ Depending how strictly the provider of the controlled vocabulary follows best pr
           ]
         }
   ```
-
-  
-
+  You can choose by changing the *Accept* different formats, e.g *text/turtle* or *application/rdf+xml*
+* Sometimes the CV can be found at the Entry IRI address, but it is treated as a file. 
+  E.g. https://publications.europa.eu/resource/authority/language/DEU is always sent back as *application/rdf+xml*
+* Finally some CVs simply provide information at the Entry IRI address, the CV as structured data is available from there.
+  E.g. http://dcat-ap.ch/vocabulary/licenses/terms_open
 
 
 * Optional: An explanation how to save an Identifier with its labels in a Relational Database. Especially if we have indirections as in Qualified Attribution etc. 
