@@ -28,25 +28,27 @@ Depending how strictly the provider of the controlled vocabulary follows best pr
   With `curl -H "Accept: application/ld+json" -L https://ld.admin.ch/canton/23` the mentioned IRI will answer with, aside other information:
   
   ```
-"@id": "https://ld.admin.ch/canton/23",
-  "http://schema.org/name": [
-    {
-      "@language": "de",
-      "@value": "Wallis"
-    },
-    {
-      "@language": "fr",
-      "@value": "Valais"
-    },
-    {
-      "@language": "it",
-      "@value": "Vallese"
-    },
-    {
-      "@language": "en",
-      "@value": "Valais"
-    }
-  ]
+        {
+          "@id": "https://ld.admin.ch/canton/23",
+          "http://schema.org/name": [
+            {
+              "@language": "de",
+              "@value": "Wallis"
+            },
+            {
+              "@language": "fr",
+              "@value": "Valais"
+            },
+            {
+              "@language": "it",
+              "@value": "Vallese"
+            },
+            {
+              "@language": "en",
+              "@value": "Valais"
+            }
+          ]
+        }
   ```
 
   
