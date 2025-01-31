@@ -78,53 +78,8 @@ Einheitliche Definition hilft bei der Interpretation der Daten.
  
 ## Rules regarding Controlled Vocabularies
  * Übernahme der passenden Stellen aus DCAT-AP-DE?
-
-## Needed concrete Controlled Vocabularies
-* Spatial / Geographic
-  * Use-Case 
-  * Search
-    * mit semantischen Konzepten (welche Orte?)
-    * auf Karte (welche Grenzen?)
-      * Übersicht auf Karte anzeigen
-  * Harvesting from EU
-  * Geometry vs Location Vocabulary
-    * Beides erlauben ?
-    * Geometrien ausschliessen ?
-    * Bounding Box ?
-    * Problematik mit verbunden Location Regions?
-  * Define a URI Set for Swiss Boundaries (Municipality, District, Canton)
-    * Identity (which points the boundaries)
-    * Boundaries
-  * Problematik CH Identifier?
-    * https://ld.admin.ch/country/CHE vs. http://publications.europa.eu/resource/authority/country/CHE
-
-* Publisher Organisation / Qualified Attribution 
-  * Michael / Michèle
-  
-* Keyword / Topics (Specific, Local) (+ dcat:keyword, sdo:keywords, foaf:primaryTopic ?)
-  * Stefan / Michael / Pasquale
-  * Wikidata
-  * Termdat
-  
-* Theme / Category (High-Level, Low-Count up to 20 entries, Up-Stream)
-  * Tania / Michèle / Fabian?
-  * Goal Alignement I14Y, Geocat, Opendata.swiss
-  
-* Formate/Mediatypes/Packaging Format (Distributions) 
-  * Tania / Stefan
-  
-* Frequency
-* Licences
-* Language
-* Availability
-* Conforms To
-* Legal Texts
-* Access Rights
-* Qualified Relation / Relation to Datasets
-* Rights
-
-* Known Namespaces:
-  * Data Catalog Vocabulary (DCAT) - Version 3 : www.w3.org/TR/vocab-dcat/#namespaces
+ * Known Namespaces:
+   * Data Catalog Vocabulary (DCAT) - Version 3 : www.w3.org/TR/vocab-dcat/#namespaces
 
 
 ## General Consideration for future Controlled Vocabularies
