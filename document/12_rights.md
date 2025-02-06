@@ -1,4 +1,4 @@
-#Rights; (lien/florian) Beroggi Lien BFS <lien.beroggi@bfs.admin.ch> , Luggen Michael BK <michael.luggen@bk.admin.ch>
+# Rights; (lien/lmi)
 
 
 ## Context:
