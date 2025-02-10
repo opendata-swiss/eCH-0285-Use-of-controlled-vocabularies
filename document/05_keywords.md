@@ -35,8 +35,11 @@ Example 25: Usage of dcat:keyword for dcat:Dataset
 
 ## Decisions (and Reasoning)
 
-## DCAT-AP-CH
-* Anpassen der Range für dcat:keyword
+### Incomaptibility with dcat-ap and dcat
+We are intentionally open the Range in regard to dcat-ap and dcat itself with this. Experience has shown, that the need for multilingual tags in the context of Switzerland is important.
+
+It will be in the responsability of opendata.swiss, to extract the multilingual literals for the export upstream to the European portals.
+
 
 ## Discussion
 
