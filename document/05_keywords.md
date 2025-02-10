@@ -10,7 +10,7 @@ Keywords primarily serve to support **search functionality** on Data Catalogs. U
 
 Both controlled vocabularies and literals are allowed, but controlled vocabularies SHOULD be used.
 
-* Priority cascade of how adding Keywords:
+Use the following priority cascade for adding Keywords:
   1. use Termdat: Look for a term on termdat.ch. E.g. *Grünabfälle*, take the entry ID (51810), and build the Concept URI by adding the ID to *https://register.ld.admin.ch/termdat/* (e.g. https://register.ld.admin.ch/termdat/51810)
   2. use GEMET (especially in a Geo Context): Look for a term on http://www.eionet.europa.eu/gemet/. Use the concept URL, as statet on the *bottom of the page of a concept* (e.g. http://www.eionet.europa.eu/gemet/concept/428)
   3. If there are no matching Concepts neither in Termdat nor GEMET, look in Wikidata (top right search). Use the Concept URI (entry in the left side). (e.g. http://www.wikidata.org/entity/Q1749732, do not copy the URL <s>https://www.wikidata.org/**wiki**/Q1749732</s>
