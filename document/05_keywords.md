@@ -4,6 +4,12 @@
 
 ## Usage Note
 
+* Suchunterstützend
+* Mehr besser als, wenige.
+* Aus der Perspektive der Suchenden (auch für publizierende klare, offensichtliche Keywords anfügen)
+* CV und Literals erlaubt, vorrang ganz klar controlled vocabularies.
+* 
+
 ## Decisions (and Reasoning)
 
 ## DCAT-AP-CH
