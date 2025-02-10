@@ -4,7 +4,7 @@
 
 ## Usage Note
 
-
+Change: *Range	skos:Concept, schema:DefinedTerm, wikibase:Item, rdfs:Literal*
 
 Keywords primarily serve to support **search functionality** on Data Catalogs. Using more keywords is preferable to using fewer. Keywords should be selected from the perspective of those conducting searche. Consider, that keywords which are obvious for you as a publisher might be usefull for the search. E.g. add *environmental monitoring* (http://www.wikidata.org/entity/Q1749732) if you as a data publisher are an Environmental Monitoring Agency.
 
@@ -17,6 +17,7 @@ Use the following priority cascade for adding Keywords:
   4. If you can't find a fitting concept, you can always add your own concept to Wikidata.
   5. Finally as a last resort, you can add a Keyword as a Literal. 
 
+Note: rdfs:Literal might be deprecated in the future.
 
 Example 25: Usage of dcat:keyword for dcat:Dataset
 ```
@@ -42,7 +43,6 @@ Example 25: Usage of dcat:keyword for dcat:Dataset
 
 
 * Keyword / Topics (Specific, Local) (+ dcat:keyword, sdo:keywords, foaf:primaryTopic ?)
-  * Stefan / Michael / Pasquale
 
   * Problematik des Range von dcat:keyword ist rdf:Literal
        * Drop the range of dcat:keyword · Issue #1585 · w3c/dxwg https://github.com/w3c/dxwg
