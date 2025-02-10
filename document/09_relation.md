@@ -80,7 +80,7 @@ Please use one of the following vocabularies:
   a dcat:Dataset ;
   dcat:qualifiedRelation [
     a dcat:Relationship ;
-    dcterms:relation <http://dcat.example.org/Test543R> ;
+    dct:relation <http://dcat.example.org/Test543R> ;
     dcat:hadRole <urn:example:isotc211/DS_AssociationTypeCode/stereoMate>
   ] .
 ```
