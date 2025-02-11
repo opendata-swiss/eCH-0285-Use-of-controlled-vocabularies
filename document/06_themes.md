@@ -23,7 +23,7 @@ Proposal: Define a usage note/recommendation, similar to the following, in the s
 ### IST-Zustand:
   * DCAT AP CH, umgesetzt in opendata.swiss: EU-Vokabular: publications.europa.eu/resource/authority/data-theme
   * I14Y benutzt eCH-STandard: https://www.i14y.admin.ch/en/catalog/concepts/08da58dc-4dc8-f9cb-b6f2-7d16b3fa0cde/description, DCAT-Standard ist ebenfalls beschrieben
-  * geocat.ch ISO, weiter definiert eCH166
+  * geocat.ch ISO-19115 Topic Categories , weiter definiert eCH166 (https://www.ech.ch/de/ech/ech-0166/1.2)
   
 ### Problemstellung:
 DCAT EU-vokabular kleinster gemeinsamer Nenner (übergeordnetes Katalog) aber je nach Datenraum/Datenkatalog ist es zu wenig differenziert
