@@ -31,7 +31,7 @@ The property dct:spatial refers to the geographical area covered by the dataset
 * For the encoding as instance of `dct:Location` see the class Location
 
 #### Examples
-##### Switzerlan and Liechtenstein - LINDAS
+##### Switzerland and Liechtenstein - LINDAS
 ```
 @prefix dcat: <http://www.w3.org/ns/dcat#> . 
 @prefix dct: <http://purl.org/dc/terms/> .
