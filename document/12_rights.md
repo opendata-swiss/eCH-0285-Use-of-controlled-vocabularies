@@ -13,9 +13,10 @@
  * DCTERMS RightsStatment definition: "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights." https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/RightsStatement/ 
 
 ## Usage Note
-- Prioritize using dct:license, dct:accessRights and for a link to a legal text dcat:applicableLegislation. Use dct:rights only for additional, specific rights information. 
+- In general this attributed is not needed, as long as you already provide dct:licence, dct:accessRights. 
+- Prioritize using dct:license, dct:accessRights and for a link to a legal text dcat:applicableLegislation. Use dct:rights only for additional, specific rights information.
 - When using dct:rights, we advise you to use the [Open Data Rights Statement Vocabulary (ODRS)](http://schema.theodi.org/odrs/).
-- To refer to a dct:RightStatement it is recommended to use an URI. 
+- To refer to a dct:RightStatement it is recommended to use an URI.
 
 ## Decisions (and Reasoning)
 
