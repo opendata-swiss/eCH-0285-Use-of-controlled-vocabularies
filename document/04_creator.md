@@ -26,6 +26,8 @@
 
 
 ### Usage Notes
+TBD: The goal is to have at least one of the following attributes, to be able which one is responsible. The usage note should reflect, that we ask mandatory ot have at least one provided.
+
 
 #### dcat:creator
 An entity responsible for producing the dataset (provider of the technical components), organisation or company. 
