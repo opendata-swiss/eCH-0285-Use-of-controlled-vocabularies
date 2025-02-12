@@ -20,6 +20,9 @@ Please use one of the following vocabularies:
   - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml)
   - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml) extended in the Swiss version (CHE_DS_AssociationTypeCode) with the values: `isTemporalStateOf`, `isDescriptionOf`, and `isDescribedBy`.
 
+[TODO] To be Checked, dcat v3 proposes the use of DCTERM: Usage note:	Used to link to another resource where the nature of the relationship is known but does not match one of the standard [DCTERMS] properties (dcterms:hasPart, dcterms:isPartOf, dcterms:conformsTo, dcterms:isFormatOf, dcterms:hasFormat, dcterms:isVersionOf, dcterms:hasVersion, dcterms:replaces, dcterms:isReplacedBy, dcterms:references, dcterms:isReferencedBy, dcterms:requires, dcterms:isRequiredBy) or [PROV-O] properties (prov:wasDerivedFrom, prov:wasInfluencedBy, prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource, prov:alternateOf, prov:specializationOf). 
+
+
 ## Examples 
 
 ```turtle
@@ -32,7 +35,7 @@ Please use one of the following vocabularies:
     dcat:qualifiedRelation [
     a dcat:Relationship ;
     dct:relation <http://example.org/Original123> ;
-    dcat:hadRole <http://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relationType/#isvariantformof>
+    dcat:hadRole <isvariantformof>
   ] .
 
 
