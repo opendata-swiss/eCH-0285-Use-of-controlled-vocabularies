@@ -12,7 +12,45 @@
   - **I14Y - Qualified relation:** Three possible relationships (`owl:sameAs`, `related`, and `original`; taken from IANA vocabulary).  
   - **opendata.swiss - Relation:** Related information  
 
----
+
+# Usage Note
+
+Please use one of the following vocabularies:
+  - [DataCite](https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/relateditem/#b-relationtype) metadata schema 
+  - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml)
+  - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml) extended in the Swiss version (CHE_DS_AssociationTypeCode) with the values: `isTemporalStateOf`, `isDescriptionOf`, and `isDescribedBy`.
+
+## Examples 
+
+```turtle
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/> .
+
+  ex:Example123
+  a dcat:Dataset ;
+    dcat:qualifiedRelation [
+    a dcat:Relationship ;
+    dct:relation <http://example.org/Original123> ;
+    dcat:hadRole <http://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relationType/#isvariantformof>
+  ] .
+
+
+  ex:Test543L
+  a dcat:Dataset ;
+  dcat:qualifiedRelation [
+    a dcat:Relationship ;
+    dct:relation <http://dcat.example.org/Test543R> ;
+    dcat:hadRole <urn:example:isotc211/DS_AssociationTypeCode/stereoMate>
+  ] .
+```
+
+## Decisions (and Reasoning)
+1. We recommend three specific vocabularies to enhance consistency:
+      - DataCite metadata schema
+      - ISO 19115-1 DS_AssociationTypeCodes
+      - CHE_DS_AssociationTypeCode (Swiss extension)
+2. We opted against recommending the [IANA Registry of Link Relations](https://www.iana.org/assignments/link-relations/link-relations.xhtml) and [MARC relators](https://id.loc.gov/vocabulary/relators.html), even if they are suggested by DCAT 3, because they don't cover the semantic needs of this property. 
 
 ## Discussion
 - [DCAT Qualified Forms](https://www.w3.org/TR/vocab-dcat/#qualified-forms)
@@ -43,44 +81,8 @@
   - `isDescribedBy`
 
 ---
-# Usage Note
-
-Please use one of the following vocabularies:
-  - [DataCite](https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/relateditem/#b-relationtype) metadata schema 
-  - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml)
-  - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml) extended in the Swiss version (CHE_DS_AssociationTypeCode) with the values: `isTemporalStateOf`, `isDescriptionOf`, and `isDescribedBy`.
-
-## Decisions (and Reasoning)
-1. We recommend three specific vocabularies to enhance consistency:
-      - DataCite metadata schema
-      - ISO 19115-1 DS_AssociationTypeCodes
-      - CHE_DS_AssociationTypeCode (Swiss extension)
-2. We opted against recommending the [IANA Registry of Link Relations](https://www.iana.org/assignments/link-relations/link-relations.xhtml) and [MARC relators](https://id.loc.gov/vocabulary/relators.html), even if they are suggested by DCAT 3, because they don't cover the semantic needs of this property. 
 
 ## Change log (vs. Version 2)
 - Introduced three recommended vocabularies. 
 - Added an example showcasing the suggested vocabularies.
-## Examples 
 
-```turtle
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/> .
-
-  ex:Example123
-  a dcat:Dataset ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-    dct:relation <http://example.org/Original123> ;
-    dcat:hadRole <http://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relationType/#isvariantformof>
-  ] .
-
-
-  ex:Test543L
-  a dcat:Dataset ;
-  dcat:qualifiedRelation [
-    a dcat:Relationship ;
-    dct:relation <http://dcat.example.org/Test543R> ;
-    dcat:hadRole <urn:example:isotc211/DS_AssociationTypeCode/stereoMate>
-  ] .
-```
