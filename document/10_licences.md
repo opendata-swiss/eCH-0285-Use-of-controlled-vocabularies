@@ -1,7 +1,11 @@
 # Licences: (florian?/lmi)
 
+## Context
+Defines the rights how to use the dataset.
+
 ## Usage Note:
-- **Use Terms of Use** is a must for confederation level, it is a must to be listed on [opendata.swiss](https://opendata.swiss).
+- **Use Terms of Use** is a must for confederation level, it is a must to be listed on [opendata.swiss](https://opendata.swiss). Use the CV: [VOCAB-CH-LICENSE]
+- To use licences from SPDX (TODO: how to use, concrete example).
 - Multiple licences can be mentioned if it makes sense.
 
 ## Discussion:
