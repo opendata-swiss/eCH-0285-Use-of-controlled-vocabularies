@@ -8,7 +8,7 @@
 
 ## Usage Note
 - Use this property exclusively for statements about access restrictions (e.g., privacy, security, or policy-related restrictions).
-- The [European Access Rights Controlled Vocabulary](http://publications.europa.eu/resource/authority/access-right) must be used. Adapt categories definitions as needed for specific use cases. 
+- The [European Access Rights Controlled Vocabulary](http://publications.europa.eu/resource/authority/access-right) SHOULD be used. Adapt categories definitions as needed for specific use cases. 
 
 ## Decisions (and Reasoning)
 1. Retained the recommendation to use the EU Publications Office access rights vocabulary.
