@@ -13,7 +13,7 @@
   - **opendata.swiss - Relation:** Related information  
 
 # Usage Note (related resource -> relation)
-[TODO]: Currently wrong, it's not for crelated resources, but to express relations between datasets. Needs to be changed.
+[TODO]: Currently wrong, remove remark of legal foudations (new legal Applicable). Remark to better use qulafiedRelation if possible.
 
 
 # Usage Note (qualifiedRelation)
