@@ -12,15 +12,16 @@
   - **I14Y - Qualified relation:** Three possible relationships (`owl:sameAs`, `related`, and `original`; taken from IANA vocabulary).  
   - **opendata.swiss - Relation:** Related information  
 
+# Usage Note (related resource -> relation)
+[TODO]: Currently wrong, it's not for crelated resources, but to express relations between datasets. Needs to be changed.
 
-# Usage Note
+
+# Usage Note (qualifiedRelation)
 
 Please use one of the following vocabularies:
   - [DataCite](https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/relateditem/#b-relationtype) metadata schema 
   - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml)
   - DS_AssociationTypeCodes values from [ISO-19115-1](https://standards.iso.org/iso/19115/resources/Codelists/gml/DS_AssociationTypeCode.xml) extended in the Swiss version (CHE_DS_AssociationTypeCode) with the values: `isTemporalStateOf`, `isDescriptionOf`, and `isDescribedBy`.
-
-[TODO] To be Checked, dcat v3 proposes the use of DCTERM: Usage note:	Used to link to another resource where the nature of the relationship is known but does not match one of the standard [DCTERMS] properties (dcterms:hasPart, dcterms:isPartOf, dcterms:conformsTo, dcterms:isFormatOf, dcterms:hasFormat, dcterms:isVersionOf, dcterms:hasVersion, dcterms:replaces, dcterms:isReplacedBy, dcterms:references, dcterms:isReferencedBy, dcterms:requires, dcterms:isRequiredBy) or [PROV-O] properties (prov:wasDerivedFrom, prov:wasInfluencedBy, prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource, prov:alternateOf, prov:specializationOf). 
 
 
 ## Examples 
