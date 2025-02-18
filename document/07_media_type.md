@@ -1,13 +1,77 @@
 # Formate/Mediatypes/Packaging Format (Distributions) (odi/tanja?)
 
+# dct:format
+
 ## Context
+
+RDF Property [dcterms:format](http://purl.org/dc/terms/format)
+  * Domain: `dcat:Distribution` 
+  * Range: [dcterms:MediaTypeOrExtent](http://purl.org/dc/terms/MediaTypeOrExtent)
+  * Description: The format of the distribution.
+
 
 ## Usage Note
 
+* This property refers to the file format of the Distribution.
+* CV to be used: [[VOCAB-EU-FILE-TYPE]](http://publications.europa.eu/resource/authority/file-type)
+* If a format is not available in the CV then: a) media type ([[IANA-MEDIA-TYPES]](https://www.iana.org/assignments/media-types/)) should be used, see also dcat:mediaType property  b) If necessary, a discussion to evaluate the adoption within the EU should be launched (Contact point: [[VOCAB-EU-OP-CONTACT]](https://op.europa.eu/en/web/about-us/contact-us)).
 
 ## Decisions (and Reasoning)
 
-## Discussion
+- no change for the CV is needed, because it already reflects a good practice.
+
+## Change log (vs. Version dcat-ch V2)
+
+- minor change to link to the dcat:mediaType property
+
+
+# dcat:mediaType
+
+## Context
+
+RDF Property [dcat:mediaType](https://www.w3.org/ns/dcat#mediaType)
+  * Domain: `dcat:Distribution` 
+  * Range: [dcterms:MediaType](http://purl.org/dc/terms/MediaType)
+  * Description: The media type of the distribution.
+
+
+## Usage Note
+
+* This property refers to the media type of the Distribution as defined in the official register of media types managed by IANA.
+* The value of the element "dcat:mediaType" *must* correspond to a MIME type according to IANA: [[IANA-MEDIA-TYPES]](https://www.iana.org/assignments/media-types/).
+
+## Decisions (and Reasoning)
+
+- no change for the CV is needed, because it already reflects a good practice.
+
+## Change log (vs. Version dcat-ch V2)
+
+- no change to V2
+
+# dcat:packageFormat
+
+## Context
+
+RDF Property [dcat:packageFormat](https://www.w3.org/TR/vocab-dcat/#Property:distribution_packaging_format)
+  * Domain: `dcat:Distribution` 
+  * Range: [dcterms:MediaType](http://purl.org/dc/terms/MediaType)
+  * Description: The format of the file in which one or more data files are grouped together.
+
+
+## Usage Note
+
+* This property refers to the format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.
+* It *should* correspond to a MIME type according to IANA: [[IANA-MEDIA-TYPES]](https://www.iana.org/assignments/media-types/).
+
+## Decisions (and Reasoning)
+
+- no change for the CV is needed, because it already reflects a good practice.
+
+## Change log (vs. Version dcat-ch V2)
+
+- Link to IANA
+
+# Discussion
 
   (Stefan / Tania)
 
