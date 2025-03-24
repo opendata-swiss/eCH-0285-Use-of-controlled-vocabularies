@@ -1,4 +1,4 @@
-# Conforms To (odi)
+# Conforms To ( odi / lmi )
 
 # dct:conformsTo
 
