@@ -1,4 +1,4 @@
-# Applicable Legislation
+# Applicable Legislation ( lmi / mik )
 
 ## Context
 See https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/#applicableLegislation
@@ -9,7 +9,7 @@ See https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/#applicableLegislation
 * 
  
 ## Examples
-* Concrete examples with the use of the full URIs.
+* Concrete examples with the use of the full URIs. ELI identifer
 * Examples in Turtle.
 * Per case at least one example.
 
