@@ -1,4 +1,4 @@
-# Rights; (lien/lmi)
+# Rights; ( liber / lmi )
 
 ## Context
 | **Predicate**                                                             | **Domain**         | **Range**            | **Description**                                                                                   |
