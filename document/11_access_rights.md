@@ -1,6 +1,9 @@
-# Access Rights; (florian/lien)
+# Access Rights; ( flof / liber)
 
 ## Context
+
+
+
 | **Predicate**                                                             | **Domain**         | **Range**            | **Description**                                                                                   |
 |---------------------------------------------------------------------------|-------------------|----------------------|---------------------------------------------------------------------------------------------------|
 | [dct:accessRights](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dataservice-access-rights) | `dcat:DataService`    | `dct:RightsStatement` | Indicates who can access the resource or its security status.      |
