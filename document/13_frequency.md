@@ -1,4 +1,4 @@
-# Frequency ( lmi / misp )
+# Frequency ( lmi / misp / hut )
 
 ## Context
 
