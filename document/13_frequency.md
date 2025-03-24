@@ -1,4 +1,4 @@
-# Frequency (misp/lmi)
+# Frequency ( lmi / misp )
 
 ## Context
 
@@ -13,7 +13,6 @@ TODO: http://publications.europa.eu/resource/authority/frequency
 * Per case at least one example.
 
 ## Decisions (and Reasoning)
-
 * Which decisions, pro- / contra were taken, and why
 
 ## Change log (vs. Version dcat-ch V2)
