@@ -1,4 +1,4 @@
-# Formate/Mediatypes/Packaging Format (Distributions) (odi/tanja?)
+# Formate/Mediatypes/Packaging Format (Distributions) (odi / hut)
 
 # dct:format
 
