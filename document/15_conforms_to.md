@@ -58,6 +58,9 @@ RDF Property [dcterms:conformsTo](https://purl.org/dc/terms/conformsTo)
 
 * Which decisions, pro- / contra were taken, and why
 
+## Discussion
+* Link also zu Geo Modellen (Interlis)
+
 ## Change log (vs. Version dcat-ch V2)
 * What change, and which advantage it brings.
 
