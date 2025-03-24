@@ -1,4 +1,4 @@
-# Availability (lmi/misp)
+# Availability ( lmi / misp )
 
 * Short description of the Context
 
