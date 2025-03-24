@@ -1,4 +1,4 @@
-# Licences: (florian/lmi)
+# Licences: ( flof / lmi / liber )
 
 ## Context
 RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license)
@@ -11,7 +11,7 @@ RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:reso
 ## Usage Note a
 * Licences *should* be provided for each [Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution).
 * Licenses *may* also be specified for a [DataService](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService) or [Catalogue](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue). In such cases, it is highly recommended that the Catalog/DataService and its contained Distributions share the same license to avoid legal conflics.
-* The [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) controlled vocabulary is **mandatory** for all datasets produced by administrative units of the Swiss Confederacy. However, both the [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) and the [SPDX License List](https://spdx.org/licenses/) are valid licensing options in DCAT-AP CH.
+* The [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) controlled vocabulary is mandatory (MUST) for all datasets produced by administrative units of the Swiss Confederacy on. However, both the [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) and the [SPDX License List](https://spdx.org/licenses/) are valid licensing options in DCAT-AP CH.
 
 * Multiple licenses may be listed if applicable.
 
