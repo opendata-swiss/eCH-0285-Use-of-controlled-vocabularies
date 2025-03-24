@@ -7,7 +7,7 @@ Per Categories: If less then 100 Einträge pro CV, and wants to be complete in s
 ## Usage Note
 * This property refers to a knowledge organization system used to classify the Catalogue's Datasets.
 * There MUST be at least one entry using the CV to be used to be DCAT-AP conform: http://publications.europa.eu/resource/dataset/data-theme
-* It is possible (CAN) to add additional topics by using other commonly used controlled vocabularies.
+* It is possible (MAY) to add additional topics by using other commonly used controlled vocabularies.
 
 (TODO: Examples)
 
