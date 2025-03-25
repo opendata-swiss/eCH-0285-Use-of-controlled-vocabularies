@@ -18,7 +18,7 @@ RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:reso
 
 ## Change log
 - The license property is now inherided from dcat:Resource, rather than being implemented Ad Hoc in each classes.
-- The type of licenses used is no restricted to [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) and [SPDX License List](https://spdx.org/licenses/)
+- The type of licenses used is now restricted to [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) and [SPDX License List](https://spdx.org/licenses/)
 
 
 ## Discussion:
