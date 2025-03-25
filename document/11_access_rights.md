@@ -36,7 +36,7 @@ RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:reso
 
 ## Change log (vs. Version 2)
 - Introduced a new example that adheres to the recommended controlled vocabulary.
-- The access right property is no inherided from dcat:Resource
+- The access right property is now inherided from dcat:Resource
 
 ## Discussion
 - Should only used for rough classification.
