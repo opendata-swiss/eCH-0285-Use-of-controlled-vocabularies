@@ -11,9 +11,15 @@ RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:reso
 ## Usage Note
 * Licences *should* be provided for each [Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution).
 * Information about licenses *may* be provided for the [CataloguedResource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CataloguedResource). It is highly recommended that the CataloguedResource and its contained Distributions share the same license to avoid legal conflics.
-* DCAT-AP CH recommends the usage of [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) or [SPDX License List](https://spdx.org/licenses/) as licensing options.
+* DCAT-AP CH requires the usage of either [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) or [SPDX License List](https://spdx.org/licenses/) as licensing options.
 
 * Multiple licenses may be listed if applicable.
+
+
+## Change log
+- The license property is now inherided from dcat:Resource, rather than being implemented Ad Hoc in each classes.
+- The type of licenses used is no restricted to [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) and [SPDX License List](https://spdx.org/licenses/)
+
 
 ## Discussion:
 
