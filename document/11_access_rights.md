@@ -1,13 +1,12 @@
 # Access Rights; ( flof / liber)
 
 ## Context
+RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license)
 
+* Domain: `dcat:Resource`
+* Range: [dctRightsStatement](https://www.dublincore.org/specifications/dublin-core/dcmi-terms//purl.org/dc/terms/RightsStatement#http://purl.org/dc/terms/RightsStatement)
+* Description: Information regarding access or restrictions based on privacy, security, or other policies
 
-
-| **Predicate**                                                             | **Domain**         | **Range**            | **Description**                                                                                   |
-|---------------------------------------------------------------------------|-------------------|----------------------|---------------------------------------------------------------------------------------------------|
-| [dct:accessRights](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dataservice-access-rights) | `dcat:DataService`    | `dct:RightsStatement` | Indicates who can access the resource or its security status.      |
-| [dct:accessRights](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dataset-access-rights) | `dcat:DataSet`    | `dct:RightsStatement` | Indicates who can access the resource or its security status.                       |
 
 ## Usage Note
 - Use this property exclusively for statements about access restrictions (e.g., privacy, security, or policy-related restrictions).
@@ -36,7 +35,8 @@
 3. Added a detailed example to illustrate proper usage.
 
 ## Change log (vs. Version 2)
-- Introduced a new example that adheres to the recommended controlled vocabulary. 
+- Introduced a new example that adheres to the recommended controlled vocabulary.
+- The access right property is now inherided from dcat:Resource
 
 ## Discussion
 - Should only used for rough classification.
