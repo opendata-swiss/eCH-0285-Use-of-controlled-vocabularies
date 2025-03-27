@@ -11,8 +11,7 @@ RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:reso
 ## Usage Note
 * Licences *should* be provided for each [Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution).
 * Information about licenses *may* be provided for the [CataloguedResource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CataloguedResource). It is highly recommended that the CataloguedResource and its contained Distributions share the same license to avoid legal conflics.
-* DCAT-AP CH requires the usage of either [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) or [SPDX License List](https://spdx.org/licenses/) as licensing options.
-
+* For the administrative divisions of the Swiss Confederation and for references on the Swiss OGD Portal, using the [VOCAB-CH-LICENCE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) is mandatory. Other users of DCAT-AP CH can choose between the VOCAB-CH-LICENCE and the [SPDX License List](https://spdx.org/licenses/) as licensing options.
 * Multiple licenses may be listed if applicable.
 
 
