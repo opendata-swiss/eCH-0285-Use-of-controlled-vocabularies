@@ -10,17 +10,26 @@ RDF Property [dcterms:conformsTo](https://purl.org/dc/terms/conformsTo)
   * Description: The standard or schema this dataset conforms to.
 
 ## Usage Note 
-* Form
-  * In general as bulletpoints. (rougly up to 2-3).
-  * Check first with the already available usage note.
-* Content:
-  * Recomendation regarding a controlled vocabulary to use.
-    * Do we have a cascade of recomendations?
-    * Decision tree if applicable. (If geodata, if on federal level, if ...)
-  * The links (as references) to the controlled vocabularies.
-  * A general example for the property. (More detailed examples go to the eCH-0285).
-  * Link to the eCH-0285 aid.
- 
+* The main idea of this property is to point to a technical description (schema, ontology, data structure description) which allows to automatically confirm the form of the dataset at hand. 
+* Ideally the reference is a description in either
+ * XSD
+ * JSON-SCHEMA
+ * RDFS / OWL / SHACL
+
+
+## Class definition
+
+dcterm:standard
+ * dcterm:title "CSVW Abfallkalender JSON"
+ * dcterm:form csvw
+ * dcterm:target https://metaodi.ch/abfallkalender.json
+
+dcterm:standard
+ * dcterm:title "Politische Geschäfte XSD Version 2.0"
+ * dcterm:form xsd
+ * dcterm:target https://ech.ch/blabla/poge2.0.xsd
+
+
 ## Examples
 * Concrete examples with the use of the full URIs.
 * Examples in Turtle.
