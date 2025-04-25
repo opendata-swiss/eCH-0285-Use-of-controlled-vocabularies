@@ -1,0 +1,36 @@
+name: Build and Commit Documentation
+
+on:
+  push:
+    paths:
+      - 'document/**'
+
+jobs:
+  build-doc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Generate documentation
+        run: |
+          mkdir -p doc-pipeline
+          pandoc $(find document -name '*.md' | grep -v -e '98_blueprint_topic.md' -e '99_references.md' | sort) \
+            -o doc-pipeline/auto-generated-documentation.docx \
+            --reference-doc=doc-pipeline/custom-reference.docx
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git add doc-pipeline/auto-generated-documentation.docx
+          git diff --cached --quiet || git commit -m "Auto-generate Word documentation"
+          git push
