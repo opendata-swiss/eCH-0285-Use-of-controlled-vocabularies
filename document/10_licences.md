@@ -2,24 +2,31 @@
 
 ## Context
 RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license)
-  * Domain: `dcat:Catalogue`, `dcat:DataService`, `dcat:Distribution` 
+  * Domain: `dcat:Resource`, `dcat:Distribution` 
   * Range: [dcterms:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)
   * Description: A legal document under which the resource is made available
 
 
 
-## Usage Note a
+## Usage Note
 * Licences *should* be provided for each [Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution).
-* Licenses *may* also be specified for a [DataService](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService) or [Catalogue](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue). In such cases, it is highly recommended that the Catalog/DataService and its contained Distributions share the same license to avoid legal conflics.
-* The [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) controlled vocabulary is mandatory (MUST) for all datasets produced by administrative units of the Swiss Confederacy on. However, both the [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) and the [SPDX License List](https://spdx.org/licenses/) are valid licensing options in DCAT-AP CH.
-
+* Information about licenses *may* be provided for the [CataloguedResource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CataloguedResource). It is highly recommended that the CataloguedResource and its contained Distributions share the same license to avoid legal conflics.
+* For the administrative divisions of the Swiss Confederation and for references on the Swiss OGD Portal, using the [VOCAB-CH-LICENCE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) is mandatory. Other users of DCAT-AP CH can choose between the VOCAB-CH-LICENCE and the [SPDX License List](https://spdx.org/licenses/) as licensing options.
 * Multiple licenses may be listed if applicable.
+
+
+## Change log
+- The license property is now inherided from dcat:Resource, rather than being implemented Ad Hoc in each classes.
+- The type of licenses used is now restricted to [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html) and [SPDX License List](https://spdx.org/licenses/)
+
 
 ## Discussion:
 
+* Opendata.swiss only uses the [VOCAB-CH-LICENSE](https://www.dcat-ap.ch/vocabulary/licenses/20240716.html). This information should be provided by opendata.swiss. Information about opendata.swiss should not be displayed in the usage note of dcterms:license, because DCAT-AP CH and opendata.swiss are two separate entities. The dependency goes only one way: ( opendata.swiss → use → DCAT-AP CH )
+
 * **To review**: Michèle Spichtig & Michael Luggen
-  * Do we allow the usage of SPDX ?
-  * Do we keep the license vocabulary VOCAB_CH_LICENSE mandatory?
+  * Should we allow the usage of SPDX ?
+  * Should the use of VOCAB_CH_LICENSE be recommended/mandatory?
 
   Note: Michael said the URI on the SPDX website is missing something. [uri-example](https://prateekvjoshi.com/wp-content/uploads/2014/02/uri-vs-url-vs-urn.jpg)
 
@@ -29,8 +36,6 @@ RDF Property [dcterms:license](https://www.w3.org/TR/vocab-dcat-3/#Property:reso
 
 - **Proposal:** We should add the SPDX License List to the recommended list of vocabularies.  (see above-proposal)
   - **Why?** This is a list of commonly used licenses used by the majority of open projects. 
-  
-- Examples should be added for other licences, especially SPDX.
 
 - Michèle gave an input from the side of opendata.swiss
   - Shall we use it still? Or rework it? [DCAT-AP CH Vocabulary](https://dcat-ap.ch/vocabulary/licenses/20210623.html)
