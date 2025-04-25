@@ -1,5 +1,5 @@
 ---
-title: "eCH-0285 Use of controlled vocabularies"
+title: "eCH-0285 Use of Controlled Vocabularies"
 lang: en
 toc: false
 ---
