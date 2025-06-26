@@ -13,7 +13,7 @@
 - Use this property exclusively for statements about access restrictions (e.g., privacy, security, or policy-related restrictions).
 - The [European Access Rights Controlled Vocabulary](http://publications.europa.eu/resource/authority/access-right) SHOULD be used. Adapt categories definitions as needed for specific use cases. 
 
-## Mapping to EU Vocabular on of concepts on CH Level
+## Mapping to EU Vocabular of classification concepts on CH Level
       
 * http://publications.europa.eu/resource/authority/access-right/RESTRICTED -> [Klassifizierungsstufe «intern»](https://www.termdat.bk.admin.ch/entry/383982)
 * http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC ->  [Klassifizierungsstufe «vertraulich»](https://www.termdat.bk.admin.ch/entry/383980)
