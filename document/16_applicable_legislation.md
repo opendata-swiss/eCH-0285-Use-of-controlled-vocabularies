@@ -6,16 +6,14 @@ See https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/#applicableLegislation
 ### Domain / Range / Short description
 
 ## Usage Note (will only be in the Standard)
-* 
+* On federal level use the ELI in the following form: https://law.ld.admin.ch/eli/cc/1999/170.
+* On the cantonal or municipal level if there is an ELI available, use it.
+* If there is no ELI available, add a ideally stable URI.
  
 ## Examples
-* Concrete examples with the use of the full URIs. ELI identifer
-* Examples in Turtle.
-* Per case at least one example.
 
 ## Decisions (and Reasoning)
 
-* Which decisions, pro- / contra were taken, and why
 
 ## Change log (vs. Version dcat-ch V2)
-* What change, and which advantage it brings.
+* new introduced
