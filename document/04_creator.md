@@ -33,7 +33,7 @@ Example
 
 #### dcat:publisher
 
-The organisation MUST be the one that has published the dataset (in the legal sense, not the technical sense), i.e. that has decided to grant rights of use to third parties. It is favorable to use a more specific publisher, i.e. "Office of Cyberadministration of Lucern" over "Canton of Lucern".
+The organisation MUST be the one that has published the dataset (in the legal sense, not the technical sense), i.e. the organisation that has decided to grant rights of use to third parties. It is preferable to use a more specific publisher, i.e. "State Chancellery Lucerne" over "Canton of Lucerne".
 
 Controlled Vocabularies to be used:
 * CH Federal Level:
