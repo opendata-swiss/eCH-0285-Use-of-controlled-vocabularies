@@ -41,7 +41,7 @@ Controlled Vocabularies to be used:
   * Fallback: We recommend using the correspondend entry in Wikidata as CV: for example Entry of the <a href="[https://www.wikidata.org/entity/Q1326584](http://www.wikidata.org/entity/Q1326584)">Federal Electricity Commission</a>.
 * Cantonal or Municipal Level:
   * Use a publisher URI published and maintained by the organisation itself (e.g. a dereferenceable foaf:Agent) where available.
-  * Fallback: We recommend using the correspondend entry in Wikidata as CV, it is straight forward to add a missing entity to Wikidata, e.g. [https://www.wikidata.org/entity/Q113041957](https://www.wikidata.org/entity/Q113041957).
+  * Fallback: We recommend using the correspondend entry in Wikidata as CV, it is straight forward to add a missing entity to Wikidata. E.g. [https://www.wikidata.org/entity/Q113041957](https://www.wikidata.org/entity/Q113041957)
  
 Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity**/Q1326584 not http://www.wikidata.org//wiki/Q1326584
 
