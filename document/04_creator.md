@@ -40,7 +40,7 @@ Controlled Vocabularies to be used:
   * Vocabulary for departments based on [RVOV](https://www.fedlex.admin.ch/eli/cc/1999/170/de)  <a href="https://ld.admin.ch/department/V">https://ld.admin.ch/department/V</a> (I-V) and for offices <a href="https://ld.admin.ch/office/V.1.6</a>./li>
   * Fallback: We recommend using the correspondend entry in Wikidata as CV: for example Entry of the <a href="[https://www.wikidata.org/entity/Q1326584](http://www.wikidata.org/entity/Q1326584)">Federal Electricity Commission</a>.
 * Cantonal or Municipal Level:
-  * Use a publisher URI published and controlled by the organisation itself (e.g. a dereferenceable foaf:Agent) where available.
+  * Use a publisher URI published and maintained by the organisation itself (e.g. a dereferenceable foaf:Agent) where available.
   * Fallback: We recommend using the correspondend entry in Wikidata as CV, it is straight forward to add a missing entity to Wikidata.
  
 Note: Use the Concept URI for Wikidata Entries http://www.wikidata.org/**entity**/Q1326584 not http://www.wikidata.org//wiki/Q1326584
