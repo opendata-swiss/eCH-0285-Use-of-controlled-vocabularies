@@ -5,6 +5,11 @@
 ### Domain / Range / Short description
 
 ## Usage Note (will only be in the Standard)
+
+**Current usage note:** CV to be used [https://www.dcat-ap.ch/releases/v3/3.0.0.html#bib-vocab-eu-availablity](VOCAB-EU-AVAILABLITY). Vocabulary in human-readable form: Planned availability [https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/planned-availability](https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/planned-availability) .
+
+**Proposal**
+
 * Form
   * In general as bulletpoints. (rougly up to 2-3).
   * Check first with the already available usage note.
